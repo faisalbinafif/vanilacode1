@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans SC', sans-serif;
+}
+
+/* NAVBAR CUSOTMIZE */
+
+.nav-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 7rem;
+}
+
+.nav-logo {
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin: 0.6rem 0 0;
+    letter-spacing: 4.5px;
+}
+
+/* NAV MENUS */
+
+.nav-menus{
+    padding: 0.2rem;
+}
+
+.items a{
+    font-size: 0.85rem;
+}
+
+/* /////////////         HOME SECTION        ///////////// */
+
+#home-container{
+    height: 30vh;
+}
+
+#home-container .home-container {
+    margin: .5rem auto 1.2rem;
+    width: 80%;
+}
+
+#home-container h1{
+    font-size: .9rem;
+    letter-spacing: 0.3rem;
+}
+
+/* /////////////         ABOUT SECTION        ///////////// */
+
+#about-container{
+    height: 58vh;
+    flex-direction: column;
+}
+
+.intro img{
+    height: 18vh;
+    margin: 1rem 0 .3rem;
+}
+
+.intro h1,
+.intro p{
+    text-align: center;
+}
+
+.intro p {
+    width: 24rem;
+}
+
+/* /////////////        SERVICES SECTION        ///////////// */
+
+#services-container{
+    height: 185vh;
+    flex-direction: column;
+}
+
+/* /////////////         CONTACT SECTION        ///////////// */
+
+#contact-container form{
+    margin: 1rem 1.7rem auto;
+}
