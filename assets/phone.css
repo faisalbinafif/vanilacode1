@@ -31,7 +31,7 @@
 /* /////////////         HOME SECTION        ///////////// */
 
 #home-container{
-    height: 30vh;
+    height: 25rem;
 }
 
 #home-container .home-container {
@@ -51,12 +51,12 @@
 /* /////////////         ABOUT SECTION        ///////////// */
 
 #about-container{
-    height: 45vh;
+    height: 30rem;
     flex-direction: column;
 }
 
 .intro img{
-    height: 18vh;
+    height: 10rem;
     margin: 1rem 0;
 }
 
@@ -72,7 +72,7 @@
 /* /////////////        SERVICES SECTION        ///////////// */
 
 #services-container{
-    height: 155vh;
+    height: 85rem;
     flex-direction: column;
 }
 
