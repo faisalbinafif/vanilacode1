@@ -70,7 +70,7 @@
 /* /////////////        SERVICES SECTION        ///////////// */
 
 #services-container{
-    height: 185vh;
+    height: 120rem;
     flex-direction: column;
 }
 
